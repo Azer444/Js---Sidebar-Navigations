@@ -1,0 +1,51 @@
+.menu-list {   
+    display: flex;
+    padding: 50px;
+    background-image: url(../img/html-color-codes-color-tutorials.jpg);
+    transform: translateY(-px);
+
+}
+.menu-list a{
+    color: #000;
+    padding-left: 60px;
+    text-decoration: none;
+}
+.menu-list a:hover{
+    color: chocolate
+}
+
+.menu-list a h1{
+    color: aliceblue;
+}
+
+.menu-list a h1:hover{
+    cursor: pointer;
+    color: chocolate;
+}
+i{
+    color: aliceblue;
+}
+
+#navbar .container .menu-list .menu{
+    top: 110px;
+    color: tomato;
+    position: relative;
+    left: 380px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.hide{
+    transform: translateY(-160px);
+    transition: all 0.5s;
+}
+
+#navbar .container .menu-list .close{
+    color: whitesmoke;
+    position: relative;
+    left: 280px;
+    top: -40px;
+    font-size: 40px;
+    cursor: pointer;
+    
+}
